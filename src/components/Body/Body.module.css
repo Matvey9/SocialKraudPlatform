@@ -5,9 +5,17 @@
     grid-gap: 2vw;
 }
 
-.body_wrapper > div {
+.body_wrapper > img {
     font-size: 5vw;
     padding: .5em;
     background: gold;
     text-align: center;
+}
+
+div {
+    text-align: -webkit-center;
+}
+.body_wrapper > img {
+    width: 100%;
+
 }
