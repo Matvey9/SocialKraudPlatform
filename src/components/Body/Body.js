@@ -3,10 +3,11 @@ import c from './Body.module.css';
 import ProjectTitle from "./ProjectTitle/ProjectTitle";
 
 function Body(props) {
+    let elementsTitle = props.data.map(title => <ProjectTitle idProject={title.idProject} img={title.img} headline={title.headline}/>);
     return (
     <body className={c.body_wrapper}>
-    <ProjectTitle img={props.data[0].img} headline={props.data[0].headline}/>
-    <ProjectTitle img={props.data[1].img}  headline={props.data[1].headline}/>
+    {elementsTitle[0]}
+    {elementsTitle[1]}
     </body>
     )
 }
