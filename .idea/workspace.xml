@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38b8596d-bb54-4708-83a5-6522d81dd169" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Redux/State.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/State.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Body/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/Body.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/ProjectTitle/ProjectTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/ProjectTitle/ProjectTitle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/Project.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,7 +95,9 @@
       <workItem from="1573126837079" duration="1999000" />
       <workItem from="1573190917480" duration="5711000" />
       <workItem from="1573813952630" duration="11031000" />
-      <workItem from="1573889509743" duration="9770000" />
+      <workItem from="1573889509743" duration="10390000" />
+      <workItem from="1573925858860" duration="5401000" />
+      <workItem from="1573975184137" duration="8055000" />
     </task>
     <servers />
   </component>
