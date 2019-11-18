@@ -7,17 +7,23 @@ import {BrowserRouter, Route} from "react-router-dom";
 
 
 function App(props) {
-    let projectsElements = props.state.projectsData.map(project => <Project description={project.desc} img={project.img}
-                                                                            headline={project.headline} stateMoney={project.money}/>);
+    let projectsElements = props.state.projectsData.map(function (project) {
+        return (
+            <div key={project.idProject}>
+                <Route exact strict path={"/project" + project.idProject}
+                       render={() => <Project idProject={project.idProject} description={project.desc} img={project.img}
+                                              headline={project.headline}
+                                              stateMoney={project.money} addDonate={props.addDonate}/>}/>
+            </div>
+        )
+    });
     return (
         <BrowserRouter>
             <div className='app-wrapper'>
                 <Header/>
                 {/*Исправить в боди не должна идти вся бесполезная ему дата!*/}
                 <Route exact strict path="/" render={() => <Body data={props.state.projectsData}/>}/>
-                <Route exact strict path="/project1" render={() => projectsElements[0]}/>
-                <Route exact strict path="/project2" render={() => projectsElements[1]}/>
-                <Route exact strict path="/project3" render={() => projectsElements[2]}/>
+                {projectsElements}
             </div>
         </BrowserRouter>
     );

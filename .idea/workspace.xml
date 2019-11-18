@@ -4,10 +4,10 @@
     <list default="true" id="38b8596d-bb54-4708-83a5-6522d81dd169" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/State.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/Body.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Project/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Project/Project.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/Project.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,6 +42,9 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Matvey\WebstormProjects\kraud_social\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Matvey\WebstormProjects\kraud_social\src\components\Header" />
       <recent name="C:\Users\Matvey\WebstormProjects\kraud_social\src\components\Body" />
@@ -97,7 +100,10 @@
       <workItem from="1573813952630" duration="11031000" />
       <workItem from="1573889509743" duration="10390000" />
       <workItem from="1573925858860" duration="5401000" />
-      <workItem from="1573975184137" duration="8055000" />
+      <workItem from="1573975184137" duration="8638000" />
+      <workItem from="1574016841495" duration="2259000" />
+      <workItem from="1574062172987" duration="25000" />
+      <workItem from="1574063889606" duration="15362000" />
     </task>
     <servers />
   </component>

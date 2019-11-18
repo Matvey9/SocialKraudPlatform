@@ -1,3 +1,6 @@
 .project_wrapper > img{
     margin-right: 2em;
 }
+.item{
+    display: inline;
+}
