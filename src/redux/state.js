@@ -32,25 +32,26 @@ let store = {
             }
         ]
     },
-
-    getState() {
-        return this._state;
-    },
     _callSubscriber() {
         console.log("State changed")
     },
-    addDonate(name, sum, idProject) {
-        let arrayPeoples=this._state.projectsData[idProject-1].money[0].moneyRaised;
-        let newDonate = {
-            id: arrayPeoples[arrayPeoples.length-1].id+1,
-            name: name,
-            sum: sum
-        };
-        arrayPeoples.push(newDonate);
-        this._callSubscriber(this._state)
+    getState() {
+        return this._state;
     },
     subscribe(observer) {
         this._callSubscriber = observer;
+    },
+    dispatch(action){
+        if(action.type === "ADD-POST"){
+            let arrayPeoples=this._state.projectsData[action.idProject-1].money[0].moneyRaised;
+            let newDonate = {
+                id: arrayPeoples[arrayPeoples.length-1].id+1,
+                name: action.name,
+                sum: action.sum
+            };
+            arrayPeoples.push(newDonate);
+            this._callSubscriber(this._state)
+        }
     }
 };
 

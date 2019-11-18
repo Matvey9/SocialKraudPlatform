@@ -15,7 +15,7 @@ function Project(props) {
     let addDonate=() => {
         let name = newDonateName.current.value;
         let sum = newDonateSum.current.value;
-        props.addDonate(name, sum, props.idProject);
+        props.dispatch({type:"ADD-POST", name:name, sum:sum, idProject:props.idProject});
         newDonateName.current.value="";
         newDonateSum.current.value="";
     };

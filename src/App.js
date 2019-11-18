@@ -13,7 +13,7 @@ function App(props) {
                 <Route exact strict path={"/project" + project.idProject}
                        render={() => <Project idProject={project.idProject} description={project.desc} img={project.img}
                                               headline={project.headline}
-                                              stateMoney={project.money} addDonate={props.addDonate}/>}/>
+                                              stateMoney={project.money} dispatch={props.dispatch}/>}/>
             </div>
         )
     });
