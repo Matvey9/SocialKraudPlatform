@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38b8596d-bb54-4708-83a5-6522d81dd169" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/projectReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Project/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Project/Project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -102,7 +101,8 @@
       <workItem from="1573975184137" duration="8638000" />
       <workItem from="1574016841495" duration="2259000" />
       <workItem from="1574062172987" duration="25000" />
-      <workItem from="1574063889606" duration="16781000" />
+      <workItem from="1574063889606" duration="17478000" />
+      <workItem from="1574142460075" duration="5641000" />
     </task>
     <servers />
   </component>

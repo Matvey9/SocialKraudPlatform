@@ -1,3 +1,6 @@
+import projectReducer from "./projectReducer";
+
+
 let store = {
     _state: {
         projectsData: [
@@ -42,16 +45,8 @@ let store = {
         this._callSubscriber = observer;
     },
     dispatch(action){
-        if(action.type === "ADD-POST"){
-            let arrayPeoples=this._state.projectsData[action.idProject-1].money[0].moneyRaised;
-            let newDonate = {
-                id: arrayPeoples[arrayPeoples.length-1].id+1,
-                name: action.name,
-                sum: action.sum
-            };
-            arrayPeoples.push(newDonate);
-            this._callSubscriber(this._state)
-        }
+        this._state.projectsData= projectReducer(this._state.projectsData, action);
+        this._callSubscriber(this._state);
     }
 };
 

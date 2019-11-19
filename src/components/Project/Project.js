@@ -1,5 +1,7 @@
 import React from 'react';
 import c from './Project.module.css';
+import {addDonateActionCreator} from "../../redux/projectReducer";
+
 
 function Project(props) {
     let moneyRaised = props.stateMoney[0].moneyRaised.map(function (item) {
@@ -15,7 +17,7 @@ function Project(props) {
     let addDonate=() => {
         let name = newDonateName.current.value;
         let sum = newDonateSum.current.value;
-        props.dispatch({type:"ADD-POST", name:name, sum:sum, idProject:props.idProject});
+        props.dispatch(addDonateActionCreator(name, sum, props.idProject));
         newDonateName.current.value="";
         newDonateSum.current.value="";
     };
